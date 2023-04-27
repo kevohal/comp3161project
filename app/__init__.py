@@ -1,13 +1,13 @@
-from flask import FLask 
+from flask import Flask 
 from flask_login import LoginManager
-import mysql.connector
+from flask_mysqldb import MySQL
 from .config import Config 
 from flask_migrate import Migrate 
 
 app = Flask(__name__)
 app.config.from_object(Config)
 
-db = mysql.connector.connect(app)
+db = MySQL(app)
 
 # Flask-login login manager
 login_manager = LoginManager()
