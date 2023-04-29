@@ -1,0 +1,211 @@
+course name,courseID,lecturerName,lecturerID
+Agriculture Issues,AGRI5310,Samantha Williams,320953533
+Agriculture Development,AGRI8823,Lisa Hoffman,320020220
+Agriculture Structures,AGRI6301,Mary Martin,320876930
+Agriculture Management,AGRI4657,Mitchell Lopez,320716706
+Agriculture Studies,AGRI4368,Leslie Garcia,320061786
+Agriculture Systems,AGRI6921,Diane Torres,320546748
+Agriculture Technologies,AGRI7287,Robin Tran,320562386
+Agriculture I,AGRI7411,Patricia Blevins,320228939
+Agriculture II,AGRI3169,Sandra Daniels,320974575
+Agriculture III,AGRI9338,Timothy Fox,320631887
+Accounting Issues,ACCO3872,Stephen Aguilar,320588306
+Accounting Development,ACCO3228,Thomas Gibson,320468306
+Accounting Structures,ACCO1522,Maria Hernandez,320019514
+Accounting Management,ACCO5436,Jennifer Villanueva,320757109
+Accounting Studies,ACCO1805,Elizabeth Garcia,320303393
+Accounting Systems,ACCO7406,Michael Nolan,320564112
+Accounting Technologies,ACCO4663,Rickey Cortez,320835710
+Accounting I,ACCO4945,Brandon Miller,320251866
+Accounting II,ACCO9812,Rachel Walls,320386189
+Accounting III,ACCO9026,William Fuller Jr.,320888540
+Biology Issues,BIOL5522,Johnny Gutierrez,320188223
+Biology Development,BIOL0561,Ms. Courtney Hill,320726005
+Biology Structures,BIOL1657,Danny Wood,320217763
+Biology Management,BIOL1802,Shannon Brewer,320160054
+Biology Studies,BIOL9674,Peter Robertson,320691282
+Biology Systems,BIOL7899,Chad Robinson,320732083
+Biology Technologies,BIOL3683,Erin Anthony,320997765
+Biology I,BIOL6081,Logan Soto,320137105
+Biology II,BIOL6460,Jessica Roberts,320675810
+Biology III,BIOL4767,Luis Wood,320760260
+Business Issues,BUSI2590,William Howell,320412013
+Business Development,BUSI5176,Bruce Ho,320662621
+Business Structures,BUSI3421,Shannon Gomez,320590536
+Business Management,BUSI5665,Charles Cooper,320282268
+Business Studies,BUSI4476,Samantha Hill,320152356
+Business Systems,BUSI2533,Brandon Bennett,320070614
+Business Technologies,BUSI8747,Allison Williams MD,320096832
+Business I,BUSI9345,Cindy Dean,320790534
+Business II,BUSI6345,Harold Grimes,320594975
+Business III,BUSI8090,Daniel Hull,320836086
+Chemistry Issues,CHEM4501,Eric Martin,320667677
+Chemistry Development,CHEM3280,Elizabeth Reed,320705389
+Chemistry Structures,CHEM7262,Jesus Harris,320434593
+Chemistry Management,CHEM8070,Justin Clark,320479109
+Chemistry Studies,CHEM2055,Melissa Barber,320573719
+Chemistry Systems,CHEM8549,Kimberly Figueroa,320351366
+Chemistry Technologies,CHEM0084,Blake Garrett,320310661
+Chemistry I,CHEM1597,Stephanie Moore,320259411
+Chemistry II,CHEM6186,Dawn Rios,320554331
+Chemistry III,CHEM7731,Cory Garcia,320632108
+Computing Issues,COMP5947,Amy Brooks,320261750
+Computing Development,COMP1269,Rhonda Cruz,320297111
+Computing Structures,COMP6422,Allison Armstrong,320479725
+Computing Management,COMP2397,Alicia Mcbride,320139238
+Computing Studies,COMP6343,Angela Schroeder,320972277
+Computing Systems,COMP4094,Heather Schmidt,320333847
+Computing Technologies,COMP3024,Aimee Sloan MD,320305332
+Computing I,COMP2096,David Castro,320451595
+Computing II,COMP5460,Shaun Shields,320424724
+Computing III,COMP7136,Christopher Gonzalez,320945021
+Economics Issues,ECON2803,Amanda Sanchez,320548368
+Economics Development,ECON4062,Elizabeth Martin,320659358
+Economics Structures,ECON8031,Kimberly Baird,320664006
+Economics Management,ECON6959,Tammy Harris,320519116
+Economics Studies,ECON4821,William Johnson,320547081
+Economics Systems,ECON9136,Kelly Mendez,320729814
+Economics Technologies,ECON9951,Aaron White,320560770
+Economics I,ECON6010,Peter Johnson,320232441
+Economics II,ECON6572,Melanie Clark,320558061
+Economics III,ECON1326,Christopher Smith,320536748
+English Issues,ENGL8632,Joshua Porter,320171321
+English Development,ENGL6060,Tammy Thomas,320891939
+English Structures,ENGL4990,Daniel Fuentes,320286308
+English Management,ENGL6720,Karen Sutton,320700313
+English Studies,ENGL8402,Kristen Reilly,320671694
+English Systems,ENGL9548,Christina Brown,320708472
+English Technologies,ENGL2484,John Maddox,320540580
+English I,ENGL5194,Michelle Horton,320044493
+English II,ENGL1169,Mr. Matthew Winters,320834313
+English III,ENGL0396,Heather Torres,320968268
+Environmental Science Issues,ENVI4074,Mary Horn,320968257
+Environmental Science Development,ENVI8081,Martha Morris,320351588
+Environmental Science Structures,ENVI7356,Mr. Lee Bryant,320346351
+Environmental Science Management,ENVI1763,Angela Jones,320637424
+Environmental Science Studies,ENVI0620,Eric Zimmerman,320430176
+Environmental Science Systems,ENVI2501,David Ayala,320420330
+Environmental Science Technologies,ENVI7490,Larry Henderson,320758993
+Environmental Science I,ENVI2616,Rodney Mcgee,320322112
+Environmental Science II,ENVI3294,Michael Ballard,320690131
+Environmental Science III,ENVI5996,Kristi Garza,320658228
+Film Issues,FILM4020,Kelly Clarke,320667808
+Film Development,FILM6291,Judy Wilson,320368424
+Film Structures,FILM9354,Monica Brown,320226432
+Film Management,FILM9123,Mary Banks,320291255
+Film Studies,FILM0189,Samantha Kemp,320711069
+Film Systems,FILM8794,Stephen Moyer,320390739
+Film Technologies,FILM7715,Stephanie Brown,320536622
+Film I,FILM7472,Casey Shelton,320516689
+Film II,FILM6967,Lori Oneal,320741133
+Film III,FILM0515,Andrew Dunn,320758647
+French Issues,FREN2344,Michael Thompson,320371261
+French Development,FREN0101,Gina Le,320177611
+French Structures,FREN0949,Victor White,320525012
+French Management,FREN4805,Summer Day,320859176
+French Studies,FREN7294,Cameron Ross,320184960
+French Systems,FREN9069,Cheryl Wood,320085798
+French Technologies,FREN0337,Carolyn Howell,320380454
+French I,FREN4369,Sean Baird,320609267
+French II,FREN7721,Susan Khan,320783239
+French III,FREN3150,Joseph Brown,320557226
+Geography Issues,GEOG5658,William Casey,320297572
+Geography Development,GEOG8768,Christina Rivera,320447489
+Geography Structures,GEOG7753,Sara Rivera,320967087
+Geography Management,GEOG4416,Dylan Clark,320415176
+Geography Studies,GEOG4439,Amy Miller,320142493
+Geography Systems,GEOG1107,Joseph Bailey,320297829
+Geography Technologies,GEOG9404,Shelby Marshall,320291080
+Geography I,GEOG0341,Ms. Makayla Garcia MD,320818194
+Geography II,GEOG0456,Jacqueline Moody,320172882
+Geography III,GEOG8069,Connie Lee,320751988
+German Issues,GERM8891,Cynthia Arnold,320583385
+German Development,GERM2932,William Patel,320029800
+German Structures,GERM2955,Robert Jensen,320818483
+German Management,GERM0657,Mary Hill,320608151
+German Studies,GERM3023,Sandra Zuniga,320222697
+German Systems,GERM5752,Larry Berg,320996347
+German Technologies,GERM1939,Sarah Webb,320926936
+German I,GERM5568,Jennifer Bass,320748167
+German II,GERM3222,Laura Munoz,320850637
+German III,GERM6024,James Baldwin,320202749
+Law Issues,LAW 7007,Zachary Lambert,320320154
+Law Development,LAW 2325,Christopher Hernandez,320071676
+Law Structures,LAW 4487,Henry Daniels,320020011
+Law Management,LAW 4608,Brandon King,320139101
+Law Studies,LAW 2782,Samantha Sutton,320567276
+Law Systems,LAW 3968,Joe Gardner,320613181
+Law Technologies,LAW 7031,William Fitzgerald,320955187
+Law I,LAW 8649,Daniel Bailey,320847588
+Law II,LAW 1293,Ann Hull,320182475
+Law III,LAW 2045,Kathy Lane,320438899
+Microbiology Issues,MICR0446,Brittney May,320469451
+Microbiology Development,MICR4602,Jonathan Ruiz,320506195
+Microbiology Structures,MICR9685,Robert Colon,320148357
+Microbiology Management,MICR1000,Christian Allen,320896809
+Microbiology Studies,MICR4579,Ryan Johnson,320711155
+Microbiology Systems,MICR2797,Molly Rosario,320067797
+Microbiology Technologies,MICR6341,Laura Tucker,320481684
+Microbiology I,MICR1703,Jeremy Johnston,320100931
+Microbiology II,MICR7394,Desiree Franklin,320866094
+Microbiology III,MICR2936,Kari Jones,320712584
+Nursing Issues,NURS9828,Scott Edwards,320717507
+Nursing Development,NURS7534,Emma Black,320669552
+Nursing Structures,NURS1067,Mary Martinez,320046150
+Nursing Management,NURS5954,Maxwell Johnson,320159194
+Nursing Studies,NURS5414,Carmen Day,320451187
+Nursing Systems,NURS6285,Blake Walton,320711494
+Nursing Technologies,NURS5253,Brittney Garcia,320623171
+Nursing I,NURS0054,Miranda Jackson,320917563
+Nursing II,NURS4366,Randy Craig,320720097
+Nursing III,NURS2917,Stephen Carter,320126212
+Philosphy Issues,PHIL0979,Raymond Townsend,320070319
+Philosphy Development,PHIL0486,Allison Shepherd,320781830
+Philosphy Structures,PHIL5605,Justin Perry,320398480
+Philosphy Management,PHIL7187,Alison Hobbs,320107946
+Philosphy Studies,PHIL4572,Zachary Hodges,320609219
+Philosphy Systems,PHIL2917,Joshua Johns,320795950
+Philosphy Technologies,PHIL3005,Ashley Mosley,320546680
+Philosphy I,PHIL0180,Shawn Miller,320412406
+Philosphy II,PHIL2317,Paul Green,320844851
+Philosphy III,PHIL6730,Leah Nguyen,320000603
+Political Issues,POLI2651,Christine Taylor,320554995
+Political Development,POLI8155,Amanda Chandler,320234423
+Political Structures,POLI0900,Christopher Li,320633341
+Political Management,POLI3671,Timothy Carpenter,320183514
+Political Studies,POLI0939,Judy Clarke,320025061
+Political Systems,POLI7037,Jeremy Robinson,320094153
+Political Technologies,POLI5695,Michael Stevens,320279993
+Political I,POLI3426,Edward Martinez,320720124
+Political II,POLI2521,Kelly Miller,320889420
+Political III,POLI3744,Angela Turner,320696974
+Psychology Issues,PSYC9057,Anne Lee,320810099
+Psychology Development,PSYC5278,Jamie Smith,320920970
+Psychology Structures,PSYC6737,Barbara Mosley,320187926
+Psychology Management,PSYC1748,Michael Stewart,320534640
+Psychology Studies,PSYC9735,Melissa Hayes,320260966
+Psychology Systems,PSYC9252,Jason Thomas,320618343
+Psychology Technologies,PSYC6004,Nicole Jimenez,320497747
+Psychology I,PSYC0500,Mr. Craig Bauer,320691793
+Psychology II,PSYC8375,Vanessa Carrillo,320779102
+Psychology III,PSYC7822,Catherine Gutierrez,320145676
+Religion Issues,RELI0612,Christine Gutierrez,320584309
+Religion Development,RELI2504,Deborah Humphrey,320969517
+Religion Structures,RELI6532,Anthony Roberts,320612387
+Religion Management,RELI3291,Tyler Turner,320038055
+Religion Studies,RELI6600,Richard Knight,320114517
+Religion Systems,RELI7760,Kyle Taylor,320219414
+Religion Technologies,RELI2424,Holly Stevens,320483312
+Religion I,RELI3590,Heather Long,320891325
+Religion II,RELI7785,Sharon Gallegos,320851024
+Religion III,RELI3607,Jordan Stewart,320560040
+Science Issues,SCIE5776,Joshua Gomez,320481769
+Science Development,SCIE2746,Sally Herman,320136684
+Science Structures,SCIE6754,Duane Compton,320269373
+Science Management,SCIE8475,Angela Smith,320556384
+Science Studies,SCIE4741,Stephanie Jones MD,320943430
+Science Systems,SCIE4610,Ronald Nelson,320384789
+Science Technologies,SCIE4676,Rhonda Gray,320639214
+Science I,SCIE0229,Danielle Jones,320069774
+Science II,SCIE9789,Peter Hall,320352118
+Science III,SCIE9379,Glenn Barr,320310982
