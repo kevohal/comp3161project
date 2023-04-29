@@ -24,7 +24,7 @@ def login():
             username = form.username.data
             password = form.password.data
  
-            #cange to mysql
+            #change to mysql
             user = UserProfile.query.filter_by(username=username).first()
 
             if user is not None and check_password_hash(user.password, password):
