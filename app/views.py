@@ -69,21 +69,42 @@ def flash_errors(form):
 
 
 #placeholder retrieving the courses from cv file 
-<<<<<<< HEAD
-@app.route('/courses/retrieve')
-=======
-@app.route('/courses/', methods=["GET"])
->>>>>>> da03336c0adfa8c342fe6eb83e762931eaa0706c
+@app.route('/courses/retrieve', methods=["GET"])
 def courses ():
 
     cursor = db.connection.cursor()
+
     cursor.execute("SELECT courseid, courseName FROM courses")
-    data = cursor.fetchone()
-    while data is not None:
-        print(data)
-        data = cursor.fetchone()
+    allCourses = cursor.fetchall()
+
+    #data = cursor.fetchone()
+    #while data is not None:
+    #    print(data)
+    #    data = cursor.fetchone()
+
+    studentID = request.args.get('id')
+    if studentID:
+        cursor.execute('''SELECT courses.courseid, courses.courseName FROM courses 
+                        JOIN enrol USING courseID 
+                        JOIN student USING studentID 
+                        WHERE id = ?  %s''')
+        studCourses = cursor.fetchall()
+    else:
+        studCourses = None
+
+    # Retrieve courses taught by a particular lecturer
+    lectID = request.args.get('lecturer_id')
+    if lectID:
+        cursor.execute('''SELECT courses.courseid, courses.courseName FROM courses 
+                        JOIN lecturer USING lectID 
+                        WHERE id = ?  %s''')
+        
+        lectCourses = cursor.fetchall()
+    else:
+        lectCourses = None
+
     cursor.close()
-    return render_template ("courses.html", data=data)
+    return render_template ("courses.html", allCourses=allCourses, studCourses=studCourses, lectCourses=lectCourses)
 
 # create course 
 @app.route('/courses/create')
