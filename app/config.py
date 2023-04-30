@@ -1,6 +1,8 @@
 import os 
 from dotenv import load_dotenv
 import app
+import MySQL
+import flask_migrate
 
 load_dotenv()
 
@@ -14,4 +16,4 @@ class Config(object):
     app.config['MYSQL_PASSWORD'] = 'password'
     app.config['MYSQL_DB'] = 'database_name'
 
-    
+    db = MySQL(app)

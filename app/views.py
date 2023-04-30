@@ -1,7 +1,7 @@
 from app import app, db, login_manager
 from flask import render_template, request, redirect, url_for, flash 
 from flask_login import login_user, logout_user, current_user, login_required
-from app.forms import LofinForm
+from app.forms import LoginForm
 from app.models import UserProfile
 from werkzeug.security import check_password_hash
 
@@ -30,7 +30,7 @@ def login():
             if user is not None and check_password_hash(user.password, password):
                 remember_me = False 
 
-                if 'remember_me' n request.form:
+                if 'remember_me' in request.form:
                     remember_me = True
 
 
@@ -44,7 +44,7 @@ def login():
 
         flash_errors(form)
 
-        return render_template("login.html", form-form)
+    return render_template("login.html", form-form)
 
             
 @app.route('/logout')
@@ -59,20 +59,38 @@ def logout():
 def page_not_found(error):
     return render_template('404.html'), 404
 
+def flash_errors(form):
+    for field, errors in form.errors.items():
+        for error in errors:
+            flash(u"Error in the %s field - %s" % (
+                getattr(form, field).label.text,
+                error
+            ), 'danger')
+
 
 #placeholder retrieving the courses from cv file 
-@app.route('/courses/')
+@app.route('/courses/retrieve')
 def courses ():
-    return render_template ('SELECT * FROM Courses')
+
+    cursor = db.connection.cursor()
+    cursor.execute("SELECT courseid, courseName FROM courses")
+    data = cursor.fetchone()
+    while data is not None:
+        print(data)
+        data = cursor.fetchone()
+    cursor.close()
+    return render_template ("courses.html", data=data)
 
 # create course 
 @app.route('/courses/create')
 def create ():
-    
+    return ("Hello World")
+
+
 
 @app.route('/courses/register')
 def register ():
-
+    return ('Hello World')
 
 
 @app.route('/courses/members')
@@ -110,6 +128,8 @@ def register ():
 
 
 @app.route('/reports/averages10/')
+def reports():
+    return ("Hello World")
 
 if __name__ == '__main__':
     app.run(debug=True, host="0.0.0.0", port="8080")

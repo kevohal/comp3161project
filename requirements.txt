@@ -9,8 +9,8 @@ Flask-Login
 psycopg2
 python-dotenv
 MySQL
-mysqldb
-
+mysql-connector-python
+wtforms
 # ----------------------
 # Production Server
 # ----------------------
