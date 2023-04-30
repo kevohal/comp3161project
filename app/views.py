@@ -61,7 +61,7 @@ def page_not_found(error):
 
 
 #placeholder retrieving the courses from cv file 
-@app.route('/courses/')
+@app.route('/courses/', methods=["GET"])
 def courses ():
     return render_template ('SELECT * FROM Courses')
 
