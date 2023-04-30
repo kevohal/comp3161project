@@ -69,7 +69,11 @@ def flash_errors(form):
 
 
 #placeholder retrieving the courses from cv file 
+<<<<<<< HEAD
 @app.route('/courses/retrieve')
+=======
+@app.route('/courses/', methods=["GET"])
+>>>>>>> da03336c0adfa8c342fe6eb83e762931eaa0706c
 def courses ():
 
     cursor = db.connection.cursor()
